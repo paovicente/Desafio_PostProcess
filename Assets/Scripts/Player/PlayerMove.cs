@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class PlayerMove : MonoBehaviour {
     //---------------------- PROPIEDADES SERIALIZADAS ----------------------
-    [SerializeField] [Range(0f, 100f)] private float movementForce = 3f;
+    [SerializeField] [Range(0f, 100f)] private float movementForce = 10f;
 
     [SerializeField] [Range(0f, 2000f)] private float jumpForce = 40f;
 
